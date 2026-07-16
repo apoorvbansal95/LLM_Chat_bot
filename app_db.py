@@ -40,7 +40,8 @@ def load_conversation(thread_id):
         config={
             "configurable": {
                 "thread_id": thread_id
-            }
+            }, 
+            "run_name":"chat_trace"
         }
     )
 
